@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+[[ $# -ne 1 ]] && echo "Error! I need "a" filename!!" && exit 1
+
+echo -e '#include <stdio.h>\n#include <stdlib.h>\nint\nmain(int argc, char* argv[])' > $1
+chmod +x $1
+vim $1
