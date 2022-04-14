@@ -8,7 +8,7 @@ chmod +x cvim
 
 ready after that it will be executable, you can perform a test running command:
 
-./cvim test.c
+cvim test.c
 
 If it works, and it opens a vim with the libraries already, you can finish the process by adding cvim to the default directory folder:
 
